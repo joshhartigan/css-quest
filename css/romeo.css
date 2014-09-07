@@ -1,0 +1,57 @@
+/**
+ * Name: romeo.css
+ * Author: Josh Hartigan
+ * Description: Stylesheet #2 for the CSS Quest project.
+ */
+
+body {
+  font-family: Consolas, monospace;
+  margin: 15% 15% 15% 15%;
+  background: #130f13;
+  color: #00f800;
+}
+
+a { color: #00ff00; }
+a:visited { color: #55cc55; }
+
+h1.title-main {
+  font-size: 48pt;
+  margin-bottom: -20px;
+  color: white;
+}
+
+  h2.tagline { color: #e0e0e0; }
+
+ul.navigation-list {
+  border: 1px solid #e0e0e0;
+  padding: 5px 5px 5px 5px;
+  display: table;
+}
+
+  ul.navigation-list li {
+    display: inline;
+    margin-right: 1em;
+  }
+
+div.promise-description h3,
+h3.portfolio-header {
+  color: white;
+  font-size: 20pt;
+}
+  ul.portfolio-list li {
+    display: inline;
+  }
+
+    ul.portfolio-list li img {
+      height: 50px;
+      -webkit-transition: height 0.5s ease;
+         -moz-transition: height 0.5s ease;
+           -o-transition: height 0.5s ease;
+              transition: height 0.5s ease;
+    }
+
+    ul.portfolio-list li img:hover { height: 200px; }
+
+  div.promise-description p {
+    font-size: 10pt;
+  }
