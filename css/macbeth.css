@@ -1,0 +1,74 @@
+/**
+ * Name: macbeth.css
+ * Author: Josh Hartigan
+ * Description: Stylesheet #1 for the CSS Quest project.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+
+body {
+  color: #001f3f;
+  font-family: "Lora";
+  font-size: 14pt;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a {
+  text-decoration: none;
+  color: #05c;
+} a:visited {
+  color: #05c;
+}
+
+h1.title-main {
+  font-family: "Montserrat";
+  font-size: 280%;
+  text-align: center;
+  color: #2ECC40;
+}
+
+  h2.tagline {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+    margin-top: -25px;
+    color: #3D9970;
+  }
+
+ul.navigation-list {
+  font-family: "Montserrat";
+  font-size: 12pt;
+}
+
+  ul.navigation-list li {
+    list-style-type: none;
+    display: inline;
+    padding: .2em 1em;
+  }
+
+  li.current-page {
+    color: #09f;
+  }
+
+h3.portfolio-header {
+  font-family: "Montserrat";
+}
+
+  ul.portfolio-list li {
+    list-style-type: none;
+    display: inline;
+  }
+
+    ul.portfolio-list li img {
+      height: 200px;
+    }
+
+div.promise-description { }
+
+  div.promise-description h3 {
+    font-family: "Montserrat";
+  }
+

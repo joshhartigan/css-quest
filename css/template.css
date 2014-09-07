@@ -1,0 +1,35 @@
+/**
+ * Name: template.css
+ * Author: Josh Hartigan
+ * Description: Stylesheet template for the CSS Quest project.
+ */
+
+body { }
+
+a { }
+
+h1.title-main { }
+
+  h2.tagline { }
+
+div.site-description { }
+
+ul.navigation-list { }
+
+  ul.navigation-list li { }
+
+  li.current-page { }
+
+h3.portfolio-header { }
+
+  ul.portfolio-list { }
+
+    ul.portfolio-list li { }
+
+      ul.portfolio-list li img { }
+
+div.promise-description { }
+
+  div.promise-description h3 { }
+
+  div.promise-description p { }
